@@ -1211,8 +1211,8 @@ $('.coming-animation').each(function(){
       return 150 * (i+1)
       }
     }).add({
-      targets: '.coming-animation',
-      targets: '.ml3',
+      targets: ['.coming-animation','.ml3'],
+     // targets: '.ml3',
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
@@ -1231,8 +1231,8 @@ $('.coming-animation').each(function(){
           return 150 * (i+1)
           }
         }).add({
-          targets: '.collection-animation',
-          targets: '.ml3',
+          targets: ['.collection-animation','.ml3'],
+          //targets: '.ml3',
         opacity: 0,
         duration: 1000,
         easing: "easeOutExpo",
